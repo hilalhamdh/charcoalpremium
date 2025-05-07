@@ -29,7 +29,7 @@ const CarouselPages = () => {
 
   return (
     <>
-      <div className="container  mx-auto pt-16 md:pt-28  overflow-hidden rounded-lg">
+      <div className="container  mx-auto pt-12 md:pt-28  overflow-hidden rounded-lg">
         <div
           className="flex transition-transform duration-700 ease-in-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
