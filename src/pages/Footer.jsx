@@ -51,7 +51,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-            <div className="flex bg-slate-800 h-14 w-[350px] mx-5 md:mx-16 rounded-sm mb-10 md:mb-0">
+            <div className="flex bg-slate-800 h-14 w-[300px] mx-5 md:mx-16 rounded-sm mb-10 md:mb-0">
               <p className=" text-xl pt-3 font-semibold mx-6">
                 Subscribe For Us
               </p>
