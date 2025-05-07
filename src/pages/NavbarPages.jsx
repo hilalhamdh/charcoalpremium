@@ -111,7 +111,7 @@ function NavbarPages() {
                 <i className="ri-whatsapp-line "></i> WhatsApp
               </button>
               <i
-                className="ri-menu-line text-3xl hover:text-pink-500 md:hidden block"
+                className="ri-menu-line text-3xl hover:text-pink-500 md:hidden pr-1 block"
                 onClick={handleClick}
               ></i>
             </div>
