@@ -55,7 +55,7 @@ const Footer = () => {
               <p className=" text-lg pt-3 font-semibold mx-4">
                 Subscribe For Us
               </p>
-              <i className="ri-telegram-2-line pt-1 pl-20 text-5xl"></i>
+              <i className="ri-telegram-2-line pt-1 md:pl-20 pl-30 text-4xl md:text-5xl"></i>
             </div>
           </div>
         </div>
