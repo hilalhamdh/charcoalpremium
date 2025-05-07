@@ -29,7 +29,7 @@ const CarouselPages = () => {
 
   return (
     <>
-      <div className=" container  w-full pt-20 mx-auto overflow-hidden rounded-lg">
+      <div className="container  mx-auto pt-16 md:pt-28  overflow-hidden rounded-lg">
         <div
           className="flex transition-transform duration-700 ease-in-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -39,7 +39,7 @@ const CarouselPages = () => {
               key={slide.id}
               src={slide.url}
               alt={`Slide ${slide.id}`}
-              className="w-full h-[400px] flex-shrink-0 object-cover"
+              className="w-full h-[300px] md:h-[600px] flex-shrink-0 object-cover"
             />
           ))}
         </div>
