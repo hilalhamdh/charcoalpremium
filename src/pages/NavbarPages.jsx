@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Logo from "/images/lg.png";
+import Logo from "/images/logooo.jpg";
 import CarouselPages from "../components/Carousel";
 
 function NavbarPages() {
@@ -40,9 +40,9 @@ function NavbarPages() {
         <div className="container mx-auto px-4 ">
           <div className=" navbar-box flex items-center justify-between">
             <div className="logo flex grid-cols-2 gap-2 items-center">
-              <img src={Logo} className="w-auto h-8 rounded-full" />
+              <img src={Logo} className="w-auto h-20 rounded-full" />
               <h1 className="text-lg items-center md:text-2xl font-bold">
-                CHORCOAL
+                CHORCOAL PREMIUM
               </h1>
             </div>
             <div className="flex grid-cols-2 gap-5">
