@@ -39,7 +39,7 @@ function NavbarPages() {
       >
         <div className="container mx-auto  ">
           <div className=" navbar-box flex items-center justify-between">
-            <div className="logo flex grid-cols-2 gap-2 items-center">
+            <div className="logo flex grid-cols-2 items-center">
               <img src={Logo} className="w-auto h-20 rounded-full" />
               <h1 className="text-sm items-center md:text-2xl font-bold">
                 CHORCOAL <br /> PREMIUM
