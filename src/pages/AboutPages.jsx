@@ -13,14 +13,14 @@ function AboutPages() {
             />
           </div>
           <div className="">
-            <h1 className="text-2xl  md:text-4xl mb-4 md:mb-0 font-bold text-indigo-300">
+            <h1 className="text-xl  md:text-4xl mb-4 md:mb-0 font-bold text-indigo-300">
               The Finest Charcoal, From the Best Provider.
             </h1>
             <img
               src="/images/bara5.jpg"
               className="visible md:hidden md:w-[700px] h-[350px] md:h-[400px] object-cover rounded-sm "
             />
-            <p className="text-xl text-justify pt-5">
+            <p className="text-sm md:text-xl text-justify pt-5">
               Premium charcoal is a high-quality type of charcoal made from
               natural hardwoods without added chemicals or binders. This type of
               charcoal is designed to provide maximum performance in grilling
