@@ -41,8 +41,8 @@ function NavbarPages() {
           <div className=" navbar-box flex items-center justify-between">
             <div className="logo flex grid-cols-2 gap-2 items-center">
               <img src={Logo} className="w-auto h-20 rounded-full" />
-              <h1 className="text-lg items-center md:text-2xl font-bold">
-                CHORCOAL PREMIUM
+              <h1 className="text-sm items-center md:text-2xl font-bold">
+                CHORCOAL <br /> PREMIUM
               </h1>
             </div>
             <div className="flex grid-cols-2 gap-5">
