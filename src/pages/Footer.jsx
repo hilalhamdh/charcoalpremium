@@ -26,7 +26,7 @@ const Footer = () => {
               Email
             </h2>
             <p className="pt-1 md:pt-3 text-sm text-justify mx-5 md:mx-16 ">
-              barapremium@gmail.com
+              charcoalpremium@gmail.com
             </p>
             <h2 className="font-bold text-xl pt-1 md:pt-4 mx-5 md:mx-16">
               Phone

@@ -38,7 +38,7 @@ function Contact() {
                 </p>
                 <p className="pt-3">
                   <i className="ri-mail-line pr-3 pl-2 "></i>
-                  hilalbow011@gmail.com
+                  charcoalpremium@gmail.com
                 </p>
                 <p className="flex">
                   <i className="ri-home-office-line pr-3 pl-2 pt-3"> </i>
@@ -58,7 +58,7 @@ function Contact() {
             className=" mx-auto mt-7 rounded-2xl shadow-lg"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127474.84390309086!2d120.13142108917238!3d-3.202155282556154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d915352008f3277%3A0x377da953be3630ef!2sMasjid%20Al%20Mukmin%20(LDII)!5e0!3m2!1sid!2sid!4v1745853037542!5m2!1sid!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63748.73592835435!2d120.15878392333742!3d-3.0148947069564604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d93e03ef72f9f91%3A0x3030bfbcaf770c0!2sPalopo%2C%20Kec.%20Wara%2C%20Kota%20Palopo%2C%20Sulawesi%20Selatan!5e0!3m2!1sid!2sid!4v1746652320323!5m2!1sid!2sid"
               className=" w-full h-[350px] md:h-[520px] rounded-xl md:p-2 p-0 "
             ></iframe>
           </div>
