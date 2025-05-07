@@ -1,6 +1,6 @@
 function AboutPages() {
   return (
-    <div className="">
+    <div className="pt-20">
       <div className="container mx-auto py-4">
         <h1 className="text-center text-2xl font-bold border-b-3 w-36 ml-1 md:ml-14  border-black">
           ABOUT US
