@@ -1,3 +1,4 @@
+import UseproductPages from "./UseproductPages";
 import VisimisiPages from "./VisimisiPages";
 
 function AboutPages() {
@@ -42,6 +43,7 @@ function AboutPages() {
         </div>
       </div>
       <VisimisiPages />
+      <UseproductPages />
     </>
   );
 }
