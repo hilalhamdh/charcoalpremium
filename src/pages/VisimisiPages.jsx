@@ -24,14 +24,17 @@ function VisimisiPages() {
               </h1>
               <ul className="pt-5 list-decimal pl-2 text-sm md:text-lg text-justify mt-4 ">
                 <li className="pb-1">
-                  Menyediakan produk arang berkualitas tinggi yang berasal dari
-                  bahan baku pilihan dan proses produksi yang ramah lingkungan.
+                  Providing high quality charcoal products derived from selected
+                  raw materials and environmentally friendly production
+                  processes.
                 </li>
                 <li className="pb-1">
-                  Mengembangkan inovasi dalam proses pembuatan arang untuk
-                  meningkatkan efisiensi, kualitas, dan keberlanjutan.
+                  Developing innovations in the charcoal manufacturing process
+                  to improve efficiency, quality and sustainability.
                 </li>
-                <li>enjaga standar mutu dan pelayanan pelanggan yang prima.</li>
+                <li>
+                  Maintaining excellent quality standards and customer service.
+                </li>
               </ul>
             </div>
           </div>
@@ -43,12 +46,12 @@ function VisimisiPages() {
               </h1>
               <ul className="pt-5 text-sm md:text-lg text-justify list-disc mt-4">
                 <li>
-                  Kami berkomitmen menghasilkan arang dengan standar mutu
-                  tinggi, yang konsisten dan dapat diandalkan oleh pelanggan.
+                  We are committed to producing charcoal with high quality
+                  standards, which are consistent and reliable for customers.
                 </li>
                 <li>
-                  Kami menjunjung tinggi kejujuran dan transparansi dalam semua
-                  aspek bisnis, dari produksi hingga distribusi.
+                  We uphold honesty and transparency in all aspects of our
+                  business, from production to distribution.
                 </li>
               </ul>
             </div>
