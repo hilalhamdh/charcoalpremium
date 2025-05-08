@@ -17,7 +17,7 @@ function AboutPages() {
             </div>
             <div className="">
               <h1 className="text-xl  md:text-4xl mb-4 md:mb-0 font-bold text-indigo-300">
-                The Finest Charcoal, From the Best Provider.
+                Premium Charcoal, From the Best Supplier.
               </h1>
               <img
                 src="/images/bara5.jpg"
