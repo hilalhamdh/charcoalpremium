@@ -34,7 +34,7 @@ const UseproductPages = () => {
   //     },
   //   ];
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-black mt-10 min-h-screen">
       <div className="container mx-auto pt-30  ">
         <div className="w-72 items-center text-center justify-center mx-auto">
           <h2 className="text-2xl text-center font-bold text-white border-b-2 border-b-white pb-3 ">
