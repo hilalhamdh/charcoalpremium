@@ -11,7 +11,7 @@ function AboutPages() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-16  md:pt-10 mx-3 md:mx-10 ">
             <div className=" md:order-first  md:mt-7 md:ml-20">
               <img
-                src="/images/bara5.jpg"
+                src="/images/baara3.jpg"
                 className="hidden md:block md:none md:w-[700px]  h-[400px] object-cover rounded-sm "
               />
             </div>
@@ -20,7 +20,7 @@ function AboutPages() {
                 Premium Charcoal, From the Best Supplier.
               </h1>
               <img
-                src="/images/bara5.jpg"
+                src="/images/baara3.jpg"
                 className="visible md:hidden md:w-[700px] h-[350px] md:h-[400px] object-cover rounded-sm "
               />
               <p className="text-sm md:text-xl text-justify pt-5 leading-7">

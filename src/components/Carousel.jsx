@@ -3,15 +3,15 @@ import { useEffect, useState } from "react";
 const slides = [
   {
     id: 1,
-    url: "/images/bara.jpg",
+    url: "/images/baara6.jpg",
   },
   {
     id: 2,
-    url: "/images/bara1.jpg",
+    url: "/images/baara1.jpg",
   },
   {
     id: 3,
-    url: "/images/bara2.jpg",
+    url: "/images/baara5.jpg",
   },
 ];
 const CarouselPages = () => {

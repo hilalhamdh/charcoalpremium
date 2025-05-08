@@ -1,8 +1,8 @@
 import NavbarPages from "../pages/NavbarPages";
-import Bara1 from "/images/bara1.jpg";
-import Bara from "/images/bara.jpg";
-import Bara2 from "/images/bara2.jpg";
-import Bara3 from "/images/bara3.jpg";
+import Bara1 from "/images/baara1.jpg";
+import Bara from "/images/baara2.jpg";
+import Bara2 from "/images/baara5.jpg";
+import Bara3 from "/images/baara3.jpg";
 
 import Footer from "../pages/Footer";
 
