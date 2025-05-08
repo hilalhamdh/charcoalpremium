@@ -3,7 +3,12 @@ function VisimisiPages() {
     <div className=" pt-10 md:pt-30  min-h-screen  ">
       <div className="container mx-auto px-4 md:pl-10 ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4  ">
-          <div className="flex grid-cols-2 w-full md:w-[450px] h-72 md:h-80 border-4 border-white rounded-2xl shadow-2xl ">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="flex grid-cols-2 w-full md:w-[450px] h-72 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
+          >
             <i className="text-6xl rounded-full ri-empathize-line py-10 md:px-3"></i>
             <div className="py-10 px-1 md:px-3">
               <h1 className="text-xl md:text-2xl font-bold pt-3 ">
@@ -17,7 +22,12 @@ function VisimisiPages() {
             </div>
           </div>
           <div>
-            <div className="flex grid-cols-2 w-full md:w-[450px] h-80 md:h-96 border-4 border-white rounded-2xl shadow-2xl ">
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="flex grid-cols-2 w-full md:w-[450px] h-80 md:h-96 border-4 border-white rounded-2xl shadow-2xl "
+            >
               <i className="text-6xl rounded-full ri-hand-heart-line py-10 md:px-3"></i>
               <div className="py-10 px-1 md:px-3">
                 <h1 className="text-xl md:text-2xl font-bold pt-3 ">
@@ -41,7 +51,12 @@ function VisimisiPages() {
               </div>
             </div>
           </div>
-          <div className="flex grid-cols-2 w-full md:w-[450px] h-80 md:h-80 border-4 border-white rounded-2xl shadow-2xl ">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="flex grid-cols-2 w-full md:w-[450px] h-80 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
+          >
             <i className="text-6xl rounded-full ri-hand py-10 md:px-3"></i>
             <div className="py-10 px-1 md:px-3">
               <h1 className="text-xl md:text-2xl font-bold pt-3 ">

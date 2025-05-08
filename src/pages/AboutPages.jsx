@@ -1,7 +1,11 @@
 import UseproductPages from "./UseproductPages";
 import VisimisiPages from "./VisimisiPages";
-
-function AboutPages() {
+import AOS from "aos";
+import { useEffect } from "react";
+const AboutPages = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className="md:pt-20">
@@ -12,6 +16,7 @@ function AboutPages() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-16  md:pt-10 mx-3 md:mx-10 ">
             <div className=" md:order-first  md:mt-7 md:ml-20">
               <img
+                data-aos="zoom-in"
                 src="/images/baara3.jpg"
                 className="hidden md:block md:none md:w-[700px]  h-[400px] object-cover rounded-sm "
               />
@@ -21,10 +26,14 @@ function AboutPages() {
                 Premium Charcoal, From the Best Supplier.
               </h1>
               <img
+                data-aos="zoom-in"
                 src="/images/baara3.jpg"
                 className="visible md:hidden md:w-[700px] h-[350px] md:h-[400px] object-cover rounded-sm "
               />
-              <p className="text-sm md:text-xl text-justify pt-5 leading-7">
+              <p
+                data-aos="fade-up"
+                className="text-sm md:text-xl text-justify pt-5 leading-7"
+              >
                 Premium charcoal is a high-quality type of charcoal made from
                 natural hardwood and coconut shells without any chemicals or
                 added binders. This type of charcoal is designed to provide
@@ -46,6 +55,6 @@ function AboutPages() {
       <UseproductPages />
     </>
   );
-}
+};
 
 export default AboutPages;
