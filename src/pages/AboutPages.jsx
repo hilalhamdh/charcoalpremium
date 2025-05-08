@@ -25,16 +25,17 @@ function AboutPages() {
               />
               <p className="text-sm md:text-xl text-justify pt-5">
                 Premium charcoal is a high-quality type of charcoal made from
-                natural hardwoods without added chemicals or binders. This type
-                of charcoal is designed to provide maximum performance in
-                grilling and smoking food. We prioritize the highest standards
-                of quality in all aspects of our business. Our charcoal products
-                are meticulously sourced from sustainable forests and crafted
-                with care, ensuring consistent quality, optimal burning
-                properties, and enhanced flavor for your grilling and cooking
-                needs.Our company's success is driven by our dedication to
-                uncompromising quality, excellent customer service, on-time
-                delivery, professionalism and strong business ethics.
+                natural hardwood and coconut shells without any chemicals or
+                added binders. This type of charcoal is designed to provide
+                maximum performance in grilling and smoking food. We prioritize
+                the highest quality standards in all aspects of our business.
+                Our charcoal products are sourced from sustainable forests and
+                are carefully crafted, ensuring consistent quality, optimal
+                burning properties, and enhanced flavor for your grilling and
+                cooking needs. The success of our company is driven by our
+                dedication to uncompromising quality, excellent customer
+                service, timely delivery, professionalism, and strong business
+                ethics.
               </p>
             </div>
           </div>
