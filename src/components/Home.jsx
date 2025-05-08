@@ -1,7 +1,7 @@
 // import Home from "../assets/images/5.jpg";
 
 import NavbarPages from "../pages/NavbarPages";
-import Bara from "/images/bara.jpg";
+
 import WhatsApp from "./WhatsApp";
 import Footer from "../pages/Footer";
 import CarouselPages from "./Carousel";
