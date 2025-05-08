@@ -16,26 +16,29 @@ function VisimisiPages() {
               </p>
             </div>
           </div>
-          <div className="flex grid-cols-2 w-full md:w-[450px] h-80 md:h-96 border-4 border-white rounded-2xl shadow-2xl ">
-            <i className="text-6xl rounded-full ri-hand-heart-line py-10 md:px-3"></i>
-            <div className="py-10 px-1 md:px-3">
-              <h1 className="text-xl md:text-2xl font-bold pt-3 ">
-                OUR MISSION{" "}
-              </h1>
-              <ul className="pt-5 list-decimal pl-2 text-sm md:text-lg text-justify mt-4 ">
-                <li className="pb-1">
-                  Providing high quality charcoal products derived from selected
-                  raw materials and environmentally friendly production
-                  processes.
-                </li>
-                <li className="pb-1">
-                  Developing innovations in the charcoal manufacturing process
-                  to improve efficiency, quality and sustainability.
-                </li>
-                <li>
-                  Maintaining excellent quality standards and customer service.
-                </li>
-              </ul>
+          <div>
+            <div className="flex grid-cols-2 w-full md:w-[450px] h-80 md:h-96 border-4 border-white rounded-2xl shadow-2xl ">
+              <i className="text-6xl rounded-full ri-hand-heart-line py-10 md:px-3"></i>
+              <div className="py-10 px-1 md:px-3">
+                <h1 className="text-xl md:text-2xl font-bold pt-3 ">
+                  OUR MISSION{" "}
+                </h1>
+                <ul className="pt-5 list-decimal pl-2 text-sm md:text-lg text-justify mt-4 ">
+                  <li className="pb-1">
+                    Providing high quality charcoal products derived from
+                    selected raw materials and environmentally friendly
+                    production processes.
+                  </li>
+                  <li className="pb-1">
+                    Developing innovations in the charcoal manufacturing process
+                    to improve efficiency, quality and sustainability.
+                  </li>
+                  <li>
+                    Maintaining excellent quality standards and customer
+                    service.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="flex grid-cols-2 w-full md:w-[450px] h-80 md:h-80 border-4 border-white rounded-2xl shadow-2xl ">

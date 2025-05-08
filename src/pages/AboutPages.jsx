@@ -23,7 +23,7 @@ function AboutPages() {
                 src="/images/bara5.jpg"
                 className="visible md:hidden md:w-[700px] h-[350px] md:h-[400px] object-cover rounded-sm "
               />
-              <p className="text-sm md:text-xl text-justify pt-5">
+              <p className="text-sm md:text-xl text-justify pt-5 leading-7">
                 Premium charcoal is a high-quality type of charcoal made from
                 natural hardwood and coconut shells without any chemicals or
                 added binders. This type of charcoal is designed to provide
