@@ -4,9 +4,8 @@ function VisimisiPages() {
       <div className="container mx-auto px-4 md:pl-10 ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4  ">
           <div
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+            data-aos="fade-up"
+            data-aos-duration="3000"
             className="flex grid-cols-2 w-full md:w-[450px] h-72 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
           >
             <i className="text-6xl rounded-full ri-empathize-line py-10 md:px-3"></i>
@@ -23,9 +22,8 @@ function VisimisiPages() {
           </div>
           <div>
             <div
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="1500"
+              data-aos="fade-up"
+              data-aos-duration="3000"
               className="flex grid-cols-2 w-full md:w-[450px] h-80 md:h-96 border-4 border-white rounded-2xl shadow-2xl "
             >
               <i className="text-6xl rounded-full ri-hand-heart-line py-10 md:px-3"></i>
@@ -52,9 +50,8 @@ function VisimisiPages() {
             </div>
           </div>
           <div
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+            data-aos="fade-up"
+            data-aos-duration="3000"
             className="flex grid-cols-2 w-full md:w-[450px] h-80 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
           >
             <i className="text-6xl rounded-full ri-hand py-10 md:px-3"></i>

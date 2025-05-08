@@ -46,7 +46,7 @@ const UseproductPages = () => {
         </p>
         <div className="pt-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="py-10">
+            <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
                 src="/images/use1.jpg"
                 className="w-full h-[350px] object-cover rounded-lg"
@@ -61,7 +61,7 @@ const UseproductPages = () => {
                 such as gold and silver.
               </p>
             </div>
-            <div className="py-10">
+            <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
                 src="/images/use9.jpg"
                 className="w-full h-[350px] object-cover rounded-lg"
@@ -75,7 +75,7 @@ const UseproductPages = () => {
                 experience. Perfect for longer BBQs or slow cooking.
               </p>
             </div>
-            <div className="py-10">
+            <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
                 src="/images/use2.jpg"
                 className="w-full h-[350px] object-cover rounded-lg"
@@ -92,7 +92,7 @@ const UseproductPages = () => {
                 electricity.
               </p>
             </div>
-            <div className="py-10">
+            <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
                 src="/images/use8.jpg"
                 className="w-full h-[350px] object-cover rounded-lg "
