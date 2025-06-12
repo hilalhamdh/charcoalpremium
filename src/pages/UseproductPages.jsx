@@ -1,3 +1,8 @@
+import Use from "../assets/images/use1.jpg";
+import Use2 from "../assets/images/use2.jpg";
+import Use9 from "../assets/images/use9.jpg";
+import Use8 from "../assets/images/use8.jpg";
+
 const UseproductPages = () => {
   //   const useProduct = [
   //     {
@@ -48,7 +53,7 @@ const UseproductPages = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
-                src="../assets/images/use1.jpg"
+                src={Use}
                 className="w-full h-[350px] object-cover rounded-lg"
               />
               <h2 className="text-2xl font-bold text-white pb-3 pt-1 mx-2">
@@ -63,7 +68,7 @@ const UseproductPages = () => {
             </div>
             <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
-                src="../assets/images/use9.jpg"
+                src={Use9}
                 className="w-full h-[350px] object-cover rounded-lg"
               />
               <h2 className="text-2xl font-bold text-white pb-3 pt-1 mx-2">
@@ -77,7 +82,7 @@ const UseproductPages = () => {
             </div>
             <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
-                src="../assets/images/use2.jpg"
+                src={Use2}
                 className="w-full h-[350px] object-cover rounded-lg"
               />
               <h2 className="text-2xl font-bold text-white pb-3 pt-1 mx-2">
@@ -94,7 +99,7 @@ const UseproductPages = () => {
             </div>
             <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
-                src="../assets/images/use8.jpg"
+                src={Use8}
                 className="w-full h-[350px] object-cover rounded-lg "
               />
               <h2 className="text-2xl font-bold text-white pb-3 pt-1 mx-2">

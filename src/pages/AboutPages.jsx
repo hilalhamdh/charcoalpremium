@@ -23,8 +23,9 @@ const AboutPages = () => {
               />
             </div>
             <div className="">
-              <h1 className="text-xl  md:text-4xl mb-4 md:mb-0 font-bold text-zinc-900">
-                Premium Charcoal, From the Best Supplier.
+              <h1 className="text-xl  md:text-2xl mb-4 md:mb-0 font-bold text-zinc-900">
+                We are a factory wood charcoal. We produce the best wood
+                charcoal with the best quality raw material
               </h1>
               <img
                 // data-aos="zoom-in"
@@ -33,11 +34,11 @@ const AboutPages = () => {
               />
               <p
                 // data-aos="fade-up"
-                className="text-sm md:text-xl text-justify pt-5 leading-7"
+                className="text-sm md:text-lg text-justify pt-5 leading-7 space-y-2"
               >
-                Premium charcoal is a high-quality type of charcoal made from
-                natural hardwood and coconut shells without any chemicals or
-                added binders. This type of charcoal is designed to provide
+                Factory wood charcoal is a high-quality type of charcoal made
+                from natural hardwood and coconut shells without any chemicals
+                or added binders. This type of charcoal is designed to provide
                 maximum performance in grilling and smoking food. We prioritize
                 the highest quality standards in all aspects of our business.
                 Our charcoal products are sourced from sustainable forests and

@@ -7,7 +7,7 @@ function NavbarPages() {
   const nomorWa = "+6282326065654";
   const pesan = "Saya ingin Order product anda, Apakah Ready?";
   const linkWa = `http://wa.me/${nomorWa}?text=${pesan}`;
-
+  const [showTitle, setShowTitle] = useState(false);
   const [show, setShow] = useState(false);
   const [scroll, setScroll] = useState(false);
 
@@ -18,6 +18,18 @@ function NavbarPages() {
   };
 
   let menuActive = show ? "right-0" : "-right-full";
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setShowTitle(true);
+      } else {
+        setShowTitle(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -41,9 +53,11 @@ function NavbarPages() {
                 src={Logo}
                 className="md:w-16 md:h-16 w-12 h-12 rounded-sm"
               />
-              <h1 className="text-xl md:text-3xl items-center md:hidden lg:block font-bold ">
-                FIRECITY TRAD
-              </h1>
+              {showTitle && (
+                <h1 className="text-xl md:text-3xl items-center md:hidden lg:block font-bold ">
+                  FIRECITY TRAD
+                </h1>
+              )}
             </div>
             <div className="flex grid-cols-2 gap-5">
               <ul

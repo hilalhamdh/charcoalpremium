@@ -6,7 +6,7 @@ function VisimisiPages() {
           <div
             // data-aos="fade-up"
             // data-aos-duration="3000"
-            className="flex grid-cols-2 hover:scale-105 duration-300 w-full  md:w-full h-72 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
+            className="flex grid-cols-2 hover:scale-105 duration-300 w-full  md:w-full h-90 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
           >
             <i className="text-6xl rounded-full ri-empathize-line py-10 md:px-3"></i>
             <div className="py-10 px-1 md:px-3">
@@ -14,9 +14,14 @@ function VisimisiPages() {
                 OUR VISION{" "}
               </h1>
               <p className="pt-5 text-sm md:text-lg text-justify mt-4 ">
-                To gain the trust of buyers from the international market, we
-                prioritize honesty, maximum service to buyers and quick response
-                to buyer needs as a form of maximum service.
+                Our factory produces the highest quality wood charcoal, made
+                exclusively from superior raw materials for exeptional results.
+                <br />
+                Expanding our global reach, we proudly export around 150 tons of
+                our high-quality products primaly to China and the Middle East.
+                <br />
+                to become a leading charcoal business by strategically
+                prioritize earning buyer trust and delivering superior service
               </p>
             </div>
           </div>
@@ -31,12 +36,15 @@ function VisimisiPages() {
                 <h1 className="text-xl md:text-2xl font-bold pt-3 ">
                   OUR MISSION{" "}
                 </h1>
-                <p className="pt-5 text-sm md:text-lg text-justify mt-4">
-                  produce high quality and eco friendly wood charcoal products
-                  and minimizing the environment impact . We are committed to
-                  sustainable practices and believe that it is our
-                  responsibility to contribute to a healthier world.
-                </p>
+
+                <ol className="list-decimal list-outside space-y-2 mt-4 text-sm md:text-lg text-justify">
+                  <li>Produce high quality and eco friendly wood charcoal.</li>
+                  <li>Products and minimizing the environment impact.</li>
+                  <li>
+                    We are committed to sustainable practices believe that it is
+                    our responsibility to contribute to a healthier world.
+                  </li>
+                </ol>
               </div>
             </div>
           </div>
