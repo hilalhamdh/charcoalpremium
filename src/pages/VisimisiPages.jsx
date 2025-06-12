@@ -1,12 +1,12 @@
 function VisimisiPages() {
   return (
-    <div className=" pt-10 md:pt-30  min-h-screen  ">
-      <div className="container mx-auto px-4 md:pl-10 ">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4  ">
+    <div className="pt-10 md:pt-20 min-h-screen flex items-center justify-center ">
+      <div className="container mx-auto px-4 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6   ">
           <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
-            className="flex grid-cols-2 w-full md:w-[450px] h-72 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
+            // data-aos="fade-up"
+            // data-aos-duration="3000"
+            className="flex grid-cols-2 hover:scale-105 duration-300 w-full  md:w-full h-72 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
           >
             <i className="text-6xl rounded-full ri-empathize-line py-10 md:px-3"></i>
             <div className="py-10 px-1 md:px-3">
@@ -14,45 +14,36 @@ function VisimisiPages() {
                 OUR VISION{" "}
               </h1>
               <p className="pt-5 text-sm md:text-lg text-justify mt-4 ">
-                To be the leading producer of premium quality coconut charcoal
-                briquettes and wood charcoal that is sustainable,
-                environmentally friendly and globally trusted.
+                To gain the trust of buyers from the international market, we
+                prioritize honesty, maximum service to buyers and quick response
+                to buyer needs as a form of maximum service.
               </p>
             </div>
           </div>
           <div>
             <div
-              data-aos="fade-up"
-              data-aos-duration="3000"
-              className="flex grid-cols-2 w-full md:w-[450px] h-80 md:h-96 border-4 border-white rounded-2xl shadow-2xl "
+              // data-aos="fade-up"
+              // data-aos-duration="3000"
+              className="flex grid-cols-2 w-full hover:scale-105 duration-300  md:w-full h-72 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
             >
               <i className="text-6xl rounded-full ri-hand-heart-line py-10 md:px-3"></i>
               <div className="py-10 px-1 md:px-3">
                 <h1 className="text-xl md:text-2xl font-bold pt-3 ">
                   OUR MISSION{" "}
                 </h1>
-                <ul className="pt-5 list-decimal pl-2 text-sm md:text-lg text-justify mt-4 ">
-                  <li className="pb-1">
-                    Providing high quality charcoal products derived from
-                    selected raw materials and environmentally friendly
-                    production processes.
-                  </li>
-                  <li className="pb-1">
-                    Developing innovations in the charcoal manufacturing process
-                    to improve efficiency, quality and sustainability.
-                  </li>
-                  <li>
-                    Maintaining excellent quality standards and customer
-                    service.
-                  </li>
-                </ul>
+                <p className="pt-5 text-sm md:text-lg text-justify mt-4">
+                  produce high quality and eco friendly wood charcoal products
+                  and minimizing the environment impact . We are committed to
+                  sustainable practices and believe that it is our
+                  responsibility to contribute to a healthier world.
+                </p>
               </div>
             </div>
           </div>
           <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
-            className="flex grid-cols-2 w-full md:w-[450px] h-80 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
+            // data-aos="fade-up"
+            // data-aos-duration="3000"
+            className="flex grid-cols-2 w-full hover:scale-105 duration-300 md:w-full h-80 md:h-95 border-4 border-white rounded-2xl shadow-2xl "
           >
             <i className="text-6xl rounded-full ri-hand py-10 md:px-3"></i>
             <div className="py-10 px-1 md:px-3">

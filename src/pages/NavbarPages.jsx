@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Logo from "/images/logooo.jpg";
+import Logo from "../assets/images/logo.png";
 import CarouselPages from "../components/Carousel";
 
 function NavbarPages() {
@@ -37,14 +37,12 @@ function NavbarPages() {
       <div
         className={`navbar md:fixed relative w-full translate-all  ${scrollActive}`}
       >
-        <div className="container mx-auto  ">
+        <div className="container  mx-auto ">
           <div className=" navbar-box flex items-center justify-between">
-            <div className="logo flex grid-cols-2 items-center">
-              <img src={Logo} className="w-auto h-20 rounded-full" />
-              <h1 className="text-sm items-center md:text-2xl font-bold">
-                PREMIUM
-                <br />
-                CHORCOAL
+            <div className="logo flex grid-cols-2 gap-4 items-center">
+              <img src={Logo} className="w-16 h-16 rounded-full" />
+              <h1 className="text-xl md:text-3xl items-center md:hidden lg:block font-bold ">
+                FIRE CITY TRAD
               </h1>
             </div>
             <div className="flex grid-cols-2 gap-5">
@@ -58,12 +56,12 @@ function NavbarPages() {
                   onClick={handleClick}
                 ></i>
                 <li className="flex items-center gap-2 px-4">
-                  <i className="ri-home-5-line text-3xl md:hidden block"></i>
+                  <i className="ri-home-5-line text-3xl md:hidden  block"></i>
 
                   <a
                     href="#"
                     onClick={() => navigate("/")}
-                    className="text-xl md:text-lg opacity-75"
+                    className="text-sm md:text-lg opacity-75"
                   >
                     Home
                   </a>
@@ -73,9 +71,9 @@ function NavbarPages() {
                   <a
                     href="#"
                     onClick={() => navigate("/contact")}
-                    className="text-xl md:text-lg opacity-75"
+                    className="text-sm md:text-lg opacity-75"
                   >
-                    Contact Us
+                    Contact
                   </a>
                 </li>
 
@@ -85,7 +83,7 @@ function NavbarPages() {
                   <a
                     href="#"
                     onClick={() => navigate("/portofolio")}
-                    className="text-xl md:text-lg opacity-75"
+                    className="text-sm md:text-lg opacity-75"
                   >
                     Portofolio
                   </a>
@@ -96,7 +94,7 @@ function NavbarPages() {
                   <a
                     href="#"
                     onClick={() => navigate("/product")}
-                    className="text-xl md:text-lg opacity-75"
+                    className="text-sm md:text-lg opacity-75"
                   >
                     Product
                   </a>
@@ -104,16 +102,16 @@ function NavbarPages() {
               </ul>
             </div>
 
-            <div className="social flex  items-center gap-2">
+            <div className="social flex  items-center gap-1 md:gap-0 ">
               <button
                 onClick={() => window.open(linkWa, "_blank")}
                 type="submit"
-                className=" bg-green-600 text-center text-sm md:text-lg w-[100px] md:w-[150px] py-1 rounded-lg text-white  hover:bg-sky-400 translate-all"
+                className=" bg-green-600 text-center text-sm w-[100px] md:w-[100px] md:py-2   rounded-sm text-white  hover:bg-sky-400 translate-all"
               >
                 <i className="ri-whatsapp-line "></i> WhatsApp
               </button>
               <i
-                className="ri-menu-line text-3xl hover:text-pink-500 md:hidden pr-1 block"
+                className="ri-menu-line  text-xl  hover:text-pink-500 md:hidden block"
                 onClick={handleClick}
               ></i>
             </div>

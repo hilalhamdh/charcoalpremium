@@ -7,12 +7,59 @@ import Footer from "../pages/Footer";
 import CarouselPages from "./Carousel";
 import AboutPages from "../pages/AboutPages";
 
+import { product } from "../Data";
+
 function Home() {
   return (
     <>
       <NavbarPages />
-      <CarouselPages />
+      <div>
+        <div className="homepage pb-10">
+          <div className="container mx-auto px-1 ">
+            <div className="hero  pt-2 md:pt-32">
+              <div className="box">
+                <div className=" bg-gradient-to-r from-slate-200 to-gray-400 to-90% h-58 md:h-70  ">
+                  <p className="text-3xl  md:text-6xl font-bold mx-4 md:mx-10 pt-16 md:pt-24 pb-2  ">
+                    Fire City Trad
+                  </p>
+                  <p className=" mt-1 text-sm md:text-xl  text-justify px-4 sm:pl-8 mb-4">
+                    We are a factory wood charcoal. We produce the best wood
+                    charcoal with the best quality raw material
+                  </p>
+                  <ul className="flex mx-4 md:mx-10 w-60 md:w-70 h-9 rounded-sm  bg-slate-300">
+                    <li className="text-yellow-900 px-5 pt-1 text-center items-center font-semibold text-lg md:text-xl">
+                      <a href="/">Home </a>
+                    </li>
+                    <p className="py-2 pr-3 text-sm font-bold">||</p>
+                    <li className="text-yellow-900 pt-1 text-center items-center font-semibold text-lg md:text-xl">
+                      <a href="/contact">Our Contact</a>
+                    </li>
+                  </ul>
+                </div>
 
+                {/* <button className="mt-7 bg-green-600 rounded-lg text-white text-xl  w-40 h-10 font-semibold">
+                  Hubungi Kami
+                </button>
+                <WhatsApp /> */}
+              </div>
+              <div className=" mt-5 grid lg:grid-cols-4  md:grid-cols-2 grid-cols-1 gap-2">
+                {product.map((products) => (
+                  <div
+                    className="flex items-center gap-2  border border-zinc-600 rounded-md hover:bg-zinc-800 group"
+                    key={products.id}
+                  >
+                    <img
+                      src={products.gambar}
+                      alt="product"
+                      className="w-full h-full bg-zinc-800  group-hover:bg-zinc-900"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <AboutPages />
       <Footer />
     </>
@@ -20,44 +67,3 @@ function Home() {
 }
 
 export default Home;
-{
-  /* <div className="homepage pb-10 ">
-        <div className="container mx-auto px-4 ">
-          <div className="hero grid md:grid-cols-2 grid-cols-1 items-center gap-10 md:gap-20 pt-14 md:pt-32">
-            <div className="box">
-              <h1
-                data-aos="fade-down"
-                data-aos-duration="2000"
-                className="lg:text-3xl/tight text-2xl font-bold mb-3 text-center md:text-left "
-              >
-                Welcome To Charcoal Premium
-              </h1>
-              <p
-                data-aos="fade-right"
-                data-aos-duration="2000"
-                data-aos-delay="200"
-                className="py-3 text-lg md:text-xl font-semibold text-justify"
-              >
-                We offer a diverse range of charcoal products tailored to meet
-                the spesific needs of our valued costumers, wheter for grilling,
-                heating, or industrial applications.
-              </p>
-
-              <button className="mt-7 bg-green-600 rounded-lg text-white text-xl  w-40 h-10 font-semibold">
-                Hubungi Kami
-              </button>
-              <WhatsApp />
-            </div>
-            <div className="box" data-aos="fade-down" data-aos-duration="2000">
-              <img
-                src={Bara}
-                data-aos="zoom-in"
-                data-aos-duration="2000"
-                alt="Halaman Homepage"
-                className="md:w-[750px] w-[500px]  mx-auto md:m-0  rounded-xl  shadow-lg shadow-white  h-[350px] md:h-[450px] "
-              />
-            </div>
-          </div>
-        </div>
-      </div> */
-}
