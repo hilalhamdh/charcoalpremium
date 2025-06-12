@@ -19,8 +19,8 @@ function Home() {
             <div className="hero  pt-2 md:pt-32">
               <div className="box">
                 <div className=" bg-gradient-to-r from-slate-200 to-gray-400 to-90% h-58 md:h-70  ">
-                  <p className="text-3xl  md:text-6xl font-bold mx-4 md:mx-10 pt-16 md:pt-24 pb-2  ">
-                    Fire City Trad
+                  <p className="text-2xl  md:text-6xl font-bold mx-4 md:mx-10 pt-16 md:pt-24 pb-2  ">
+                    FIRECITY TRAD
                   </p>
                   <p className=" mt-1 text-sm md:text-xl  text-justify px-4 sm:pl-8 mb-4">
                     We are a factory wood charcoal. We produce the best wood

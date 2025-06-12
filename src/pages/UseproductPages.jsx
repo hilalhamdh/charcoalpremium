@@ -48,7 +48,7 @@ const UseproductPages = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
-                src="/images/use1.jpg"
+                src="../assets/images/use1.jpg"
                 className="w-full h-[350px] object-cover rounded-lg"
               />
               <h2 className="text-2xl font-bold text-white pb-3 pt-1 mx-2">
@@ -63,7 +63,7 @@ const UseproductPages = () => {
             </div>
             <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
-                src="/images/use9.jpg"
+                src="../assets/images/use9.jpg"
                 className="w-full h-[350px] object-cover rounded-lg"
               />
               <h2 className="text-2xl font-bold text-white pb-3 pt-1 mx-2">
@@ -77,7 +77,7 @@ const UseproductPages = () => {
             </div>
             <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
-                src="/images/use2.jpg"
+                src="../assets/images/use2.jpg"
                 className="w-full h-[350px] object-cover rounded-lg"
               />
               <h2 className="text-2xl font-bold text-white pb-3 pt-1 mx-2">
@@ -94,7 +94,7 @@ const UseproductPages = () => {
             </div>
             <div data-aos="fade-up" data-aos-duration="3000" className="py-10">
               <img
-                src="/images/use8.jpg"
+                src="../assets/images/use8.jpg"
                 className="w-full h-[350px] object-cover rounded-lg "
               />
               <h2 className="text-2xl font-bold text-white pb-3 pt-1 mx-2">

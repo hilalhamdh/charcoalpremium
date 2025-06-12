@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../assets/images/logo.png";
-import CarouselPages from "../components/Carousel";
 
 function NavbarPages() {
   const nomorWa = "+6282326065654";
@@ -34,15 +33,16 @@ function NavbarPages() {
   let scrollActive = scroll ? "py-1 bg-white shadow " : "py-4";
   return (
     <>
-      <div
-        className={`navbar md:fixed relative w-full translate-all  ${scrollActive}`}
-      >
+      <div className={`navbar fixed  w-full translate-all  ${scrollActive}`}>
         <div className="container  mx-auto ">
           <div className=" navbar-box flex items-center justify-between">
             <div className="logo flex grid-cols-2 gap-4 items-center">
-              <img src={Logo} className="w-16 h-16 rounded-full" />
+              <img
+                src={Logo}
+                className="md:w-16 md:h-16 w-12 h-12 rounded-sm"
+              />
               <h1 className="text-xl md:text-3xl items-center md:hidden lg:block font-bold ">
-                FIRE CITY TRAD
+                FIRECITY TRAD
               </h1>
             </div>
             <div className="flex grid-cols-2 gap-5">
@@ -52,7 +52,7 @@ function NavbarPages() {
              text-black transition-all`}
               >
                 <i
-                  className="ri-close-line font-bold text-2xl text-right hover:text-pink-600 items-end pr-3 pt-7 md:hidden block"
+                  className="ri-close-line font-bold text-4xl text-right hover:text-pink-600 items-end pr-6 pt-7 md:hidden block"
                   onClick={handleClick}
                 ></i>
                 <li className="flex items-center gap-2 px-4">
@@ -77,18 +77,6 @@ function NavbarPages() {
                   </a>
                 </li>
 
-                <li className=" flex items-center gap-2 px-4">
-                  <i className="ri-id-card-line text-3xl md:hidden block"></i>
-
-                  <a
-                    href="#"
-                    onClick={() => navigate("/portofolio")}
-                    className="text-sm md:text-lg opacity-75"
-                  >
-                    Portofolio
-                  </a>
-                </li>
-
                 <li className=" flex items-center gap-2 md:pb-0 pb-3 px-4">
                   <i className="ri-product-hunt-line text-3xl md:hidden block"></i>
                   <a
@@ -96,7 +84,7 @@ function NavbarPages() {
                     onClick={() => navigate("/product")}
                     className="text-sm md:text-lg opacity-75"
                   >
-                    Product
+                    Products
                   </a>
                 </li>
               </ul>
@@ -111,7 +99,7 @@ function NavbarPages() {
                 <i className="ri-whatsapp-line "></i> WhatsApp
               </button>
               <i
-                className="ri-menu-line  text-xl  hover:text-pink-500 md:hidden block"
+                className="ri-menu-line  text-4xl pr-3 hover:text-pink-500 md:hidden block"
                 onClick={handleClick}
               ></i>
             </div>
