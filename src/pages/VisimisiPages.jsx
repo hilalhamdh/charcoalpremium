@@ -6,7 +6,7 @@ function VisimisiPages() {
           <div
             // data-aos="fade-up"
             // data-aos-duration="3000"
-            className="flex grid-cols-2 hover:scale-105 duration-300 w-full  md:w-full h-70 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
+            className="flex grid-cols-2 hover:scale-105 duration-300 w-full  md:w-full h-60 md:h-80 border-4 border-white rounded-2xl shadow-2xl "
           >
             <i className="text-6xl rounded-full ri-empathize-line py-10 md:px-3"></i>
             <div className="py-10 px-1 md:px-3">
