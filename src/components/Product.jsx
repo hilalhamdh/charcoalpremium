@@ -9,7 +9,7 @@ function Product() {
       <NavbarPages />
       <div className="product pb-10 ">
         <div className="container mx-auto  ">
-          <div className=" items-center pt-14  md:pt-32">
+          <div className=" items-center ">
             <div className=" bg-gradient-to-r from-slate-200 to-gray-400 to-90% h-60 md:h-70 pt-3  ">
               <p className="text-2xl  md:text-6xl font-bold mx-4 md:mx-10 pt-16 md:pt-24 pb-2  ">
                 FIRECITY TRAD
