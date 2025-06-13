@@ -62,7 +62,7 @@ function NavbarPages() {
             <div className="flex grid-cols-2 gap-5">
               <ul
                 className={`flex lg:gap-12 md:static md:flex-row md:shadow-none md:py-5 md:bg-transparent md:w-auto md:h-full md:translate-y-0 md:text-black gap-6 mt-20 rounded-lg   md:p-0 md:m-0 md:transition-none fixed ${menuActive} top-56 
-            -translate-y-full  flex-col fixed z-50  rounded shadow-lg shadow-slate-300 bg-white font-bold
+            -translate-y-full  flex-col fixed z-50  rounded shadow-sm  bg-white font-bold
              text-black transition-all`}
               >
                 <i

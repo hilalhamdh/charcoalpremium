@@ -4,7 +4,7 @@ import NavbarPages from "../pages/NavbarPages";
 
 import WhatsApp from "./WhatsApp";
 import Footer from "../pages/Footer";
-import CarouselPages from "./Carousel";
+
 import AboutPages from "../pages/AboutPages";
 
 import { product } from "../Data";
@@ -36,11 +36,6 @@ function Home() {
                     </li>
                   </ul>
                 </div>
-
-                {/* <button className="mt-7 bg-green-600 rounded-lg text-white text-xl  w-40 h-10 font-semibold">
-                  Hubungi Kami
-                </button>
-                <WhatsApp /> */}
               </div>
               <div className=" mt-5 grid lg:grid-cols-4  md:grid-cols-2 grid-cols-1 gap-2">
                 {product.map((products) => (

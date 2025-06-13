@@ -30,7 +30,7 @@ function Product() {
             </div>
 
             <div className="pt-4 md:pt-7">
-              <h2 className="text-center mx-auto font-bold w-60 md:w-80 h-10  md:h-14 items-center pt-2 text-yellow-500 shadow-amber-50 text-2xl md:text-3xl border-b-3 ">
+              <h2 className="text-center mx-auto font-bold w-45 md:w-60 h-10  md:h-14 items-center pt-2 text-yellow-500 shadow-amber-50 text-2xl md:text-3xl border-b-3 ">
                 Our Products
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -54,7 +54,7 @@ function Product() {
 
             <div className="py-10 mx-2">
               <div className="">
-                <h2 className="text-center mx-auto font-bold w-80 md:w-80 h-10  md:h-14 items-center pt-2 text-yellow-500 shadow-amber-50 text-2xl md:text-3xl border-b-3 ">
+                <h2 className="text-center mx-auto font-bold w-65 md:w-80 h-10  md:h-14 items-center pt-2 text-yellow-500 shadow-amber-50 text-2xl md:text-3xl border-b-3 ">
                   Desctiption Product
                 </h2>
               </div>
@@ -77,7 +77,7 @@ function Product() {
               </ol>
             </div>
             <div className="pt-4 md:pt-7">
-              <h2 className="text-center mx-auto font-bold w-60 md:w-80 h-10  md:h-14 items-center pt-2 text-yellow-500  shadow-amber-50 text-2xl md:text-3xl border-b-3 ">
+              <h2 className="text-center mx-auto font-bold w-65 md:w-80 h-10  md:h-14 items-center pt-2 text-yellow-500  shadow-amber-50 text-2xl md:text-3xl border-b-3 ">
                 Production Procces
               </h2>
               <p className="z-50 text-center w-full pt-2 text-md">
