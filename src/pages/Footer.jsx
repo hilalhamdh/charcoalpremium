@@ -15,9 +15,9 @@ const Footer = () => {
             <div className="flex items-center mx-2 ">
               <i className="ri-building-2-line"></i>
               <p className="pt-5 md:pt-10 text-sm md:text-lg text-justify mx-3  ">
-                Office and warehouse address :<br /> Komp Pergudangan JJ Permata
-                Jabon II C No.5, Desa/Kelurahan Tambaksawah, Kec. Waru, Kab.
-                Sidoarjo, Provinsi Jawa Timur, Kode Pos: 61256
+                Office and warehouse address :<br /> Komplek Pergudangan JJ
+                Permata Jabon II C No.5, Tambaksawah, Waru, Sidoarjo,
+                East Java-Indonesia
               </p>
             </div>
             <div className="flex items-center mx-2">

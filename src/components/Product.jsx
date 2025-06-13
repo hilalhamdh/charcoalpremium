@@ -66,14 +66,12 @@ function Product() {
                 The advantages of our products:
               </p>
               <ol className="mx-4 list-decimal list-outside space-y-2 mt-4 text-sm md:text-lg text-justify">
-                <li>
-                  We are committed to producing charcoal with high quality
-                  standards, which are consistent and reliable for customers.
-                </li>
-                <li>
-                  We uphold honesty and transparency in all aspects of our
-                  business, from production to distribution.
-                </li>
+                <li>Easy to turn on</li>
+                <li>Longer burning time</li>
+                <li>High temperature</li>
+                <li>Smokeless and less spark</li>
+                <li>Higher density</li>
+                <li>Higher thermal efficiency</li>
               </ol>
             </div>
             <div className="pt-4 md:pt-7">
@@ -102,7 +100,7 @@ function Product() {
           </div>
         </div>
       </div>
-      /
+
       <Footer />
     </>
   );

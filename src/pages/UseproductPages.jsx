@@ -58,9 +58,9 @@ const UseproductPages = () => {
               <p className="text-white text-sm md:text-lg text-justify mx-2">
                 The use of wood charcoal as a heating source has long been known
                 for its efficiency in producing high heat at relatively low
-                cost. whood charcoal stove: Used in rural areas or homes without
+                cost. wood charcoal stove: Used in rural areas or homes without
                 access to electricity/gas. Portable space heater: In some
-                countries (e.g. in Asia and Africa),whood charcoal is used in
+                countries (e.g. in Asia and Africa),wood charcoal is used in
                 ceramic stoves to heat small rooms during the winter.
               </p>
             </div>

@@ -27,8 +27,9 @@ const AboutPages = () => {
               Our factory produces the highest quality wood charcoal, made
               exclusively from superior raw materials for exeptional results.
               <br />
-              Expanding our global reach, we proudly export around 150 tons of
-              our high-quality products primaly to China and the Middle East.
+              Expanding our global reach, we proudly export around 150
+              tons/month of our high-quality products primaly to China
+              and the Middle East.
               <br />
               To become a leading charcoal business by strategically prioritize
               earning buyer trust and delivering superior service

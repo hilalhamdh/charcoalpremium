@@ -69,6 +69,7 @@ import Tahab2 from "./assets/images/tahap2.jpg"
 import Tahab1 from"./assets/images/tahap1.jpg"
 import Tahab3 from "./assets/images/tahap3.jpg"
 import Tahab4  from"./assets/images/tahap4.jpg"
+import Tahab5  from"./assets/images/tahap5.jpg"
 
 
 export const proces = [
@@ -98,6 +99,13 @@ export const proces = [
         id:4,
         desc :"4.Packing",
         gambar : Tahab4,
+        
+    
+    },
+    {
+        id:5,
+        desc :"5.Storing",
+        gambar : Tahab5,
         
     
     }
