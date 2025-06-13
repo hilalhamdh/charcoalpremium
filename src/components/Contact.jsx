@@ -2,8 +2,8 @@ import Footer from "../pages/Footer";
 import NavbarPages from "../pages/NavbarPages";
 
 function Contact() {
-  const nomorWa = "+6282326065654";
-  const pesan = "Saya ingin Order product anda, Apakah Ready?";
+  const nomorWa = "+6281110117776";
+  const pesan = "Saya ingin Order product anda, Apakah stoknya Ready?";
   const linkWa = `http://wa.me/${nomorWa}?text=${pesan}`;
   return (
     <>
@@ -34,24 +34,24 @@ function Contact() {
               <div className="mx-6 mt-5 md:mt-10 text-xl">
                 <p className="">
                   <i className="ri-phone-line pr-3 pl-2 pb-3"></i>
-                  082-326-065-654
+                  0811-1011-7776
                 </p>
                 <p className="pt-3">
                   <i className="ri-mail-line pr-3 pl-2 "></i>
-                  charcoalpremium@gmail.com
+                  ptfirecity@gmail.com
                 </p>
                 <p className="flex">
                   <i className="ri-home-office-line pr-3 pl-2 pt-3"> </i>
                   <p className="text-justify pt-3">
-                    Ponrang, Desa Tirowali, Kecamatan Ponrang, Kabupaten Luwu,
-                    Sulawesi Selatan
+                    Komp Pergudangan JJ Permata Jabon II C No.5, Tambaksawah,
+                    Waru, Sidoarjo, East Java-Indonesi
                   </p>
                 </p>
               </div>
             </div>
           </div>
 
-          <div
+          {/* <div
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
             data-aos-delay="400"
@@ -61,7 +61,7 @@ function Contact() {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63748.73592835435!2d120.15878392333742!3d-3.0148947069564604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d93e03ef72f9f91%3A0x3030bfbcaf770c0!2sPalopo%2C%20Kec.%20Wara%2C%20Kota%20Palopo%2C%20Sulawesi%20Selatan!5e0!3m2!1sid!2sid!4v1746652320323!5m2!1sid!2sid"
               className=" w-full h-[350px] md:h-[520px] rounded-xl md:p-2 p-0 "
             ></iframe>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />

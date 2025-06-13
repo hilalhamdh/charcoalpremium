@@ -1,10 +1,7 @@
 import NavbarPages from "../pages/NavbarPages";
-import Bara1 from "../assets/images/baara1.jpg";
-import Bara from "../assets/images/baara2.jpg";
-import Bara2 from "../assets/images/baara5.jpg";
-import Bara3 from "../assets/images/baara3.jpg";
 
 import Footer from "../pages/Footer";
+import { productt, proces } from "../Data";
 
 function Product() {
   return (
@@ -13,11 +10,15 @@ function Product() {
       <div className="product pb-10 ">
         <div className="container mx-auto  ">
           <div className=" items-center pt-14  md:pt-32">
-            <div className=" bg-gradient-to-r from-slate-200 to-gray-400 to-90% h-50 md:h-60  ">
-              <p className="text-3xl  md:text-6xl font-bold mx-5 md:mx-10 pt-16 md:pt-24 pb-5  ">
-                Fire City Trad
+            <div className=" bg-gradient-to-r from-slate-200 to-gray-400 to-90% h-60 md:h-70 pt-3  ">
+              <p className="text-2xl  md:text-6xl font-bold mx-4 md:mx-10 pt-16 md:pt-24 pb-2  ">
+                FIRECITY TRAD
               </p>
-              <ul className="flex mx-5 md:mx-10 w-72 h-9 rounded-sm  bg-slate-300">
+              <p className=" mt-1 text-sm md:text-xl  text-justify px-4 sm:pl-8 mb-4">
+                We are a factory wood charcoal. We produce the best wood
+                charcoal with the best quality raw material
+              </p>
+              <ul className="flex mx-4 md:mx-10 w-60 md:w-70 h-9 rounded-sm  bg-slate-300">
                 <li className="text-yellow-900 px-5 pt-1 text-center items-center font-semibold text-lg md:text-xl">
                   <a href="/">Home </a>
                 </li>
@@ -29,20 +30,42 @@ function Product() {
             </div>
 
             <div className="pt-4 md:pt-7">
-              <h2 className="text-center font-bold w-44 md:w-56 h-10  md:h-14 items-center pt-2 text-yellow-500 rounded-lg shadow-amber-50 text-2xl md:text-3xl bg-sky-950 mx-auto ">
-                Our Product
+              <h2 className="text-center mx-auto font-bold w-60 md:w-80 h-10  md:h-14 items-center pt-2 text-yellow-500 shadow-amber-50 text-2xl md:text-3xl border-b-3 ">
+                Our Products
               </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                {productt.map((products) => (
+                  <div
+                    key={products.id}
+                    className="bg-white p-4 rounded shadow"
+                  >
+                    <img
+                      src={products.gambar}
+                      alt="product-image"
+                      className="w-full h-[300px] object-cover rounded"
+                    />
+                    <h1 className="mt-2 text-lg text-center font-semibold">
+                      {products.name}
+                    </h1>
+                  </div>
+                ))}
+              </div>
             </div>
 
-            <div className="py-10 px-1">
-              <h1 className="text-xl md:text-2xl  pt-3 ">
+            <div className="py-10 mx-2">
+              <div className="">
+                <h2 className="text-center mx-auto font-bold w-80 md:w-80 h-10  md:h-14 items-center pt-2 text-yellow-500 shadow-amber-50 text-2xl md:text-3xl border-b-3 ">
+                  Desctiption Product
+                </h2>
+              </div>
+              <p className="text-md md:text-2xl text-justify pt-5 shadow-white shadow-4xl">
                 Our products are tamarind wood charcoal, halaban wood charcoal,
                 coffe wood charcoal and mixed hardwood charcoal. Our product
                 made from the best quality raw material.
                 <br />
                 The advantages of our products:
-              </h1>
-              <ul className="pt-5 text-sm md:text-lg text-justify list-disc mt-4">
+              </p>
+              <ol className="mx-4 list-decimal list-outside space-y-2 mt-4 text-sm md:text-lg text-justify">
                 <li>
                   We are committed to producing charcoal with high quality
                   standards, which are consistent and reliable for customers.
@@ -51,54 +74,35 @@ function Product() {
                   We uphold honesty and transparency in all aspects of our
                   business, from production to distribution.
                 </li>
-              </ul>
+              </ol>
             </div>
-
-            <div className=" pt-4 md:pt-7 items-center justify-center ">
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-3 mx-4">
-                <img src={Bara1} className="w-full md:w-[350px] h-[300px]" />
-                <img src={Bara} className="w-full md:w-[350px] h-[300px]" />
-                <img src={Bara2} className="w-full md:w-[350px] h-[300px]" />
-                <img src={Bara3} className="w-full md:w-[350px] h-[300px]" />
+            <div className="pt-4 md:pt-7">
+              <h2 className="text-center mx-auto font-bold w-60 md:w-80 h-10  md:h-14 items-center pt-2 text-yellow-500  shadow-amber-50 text-2xl md:text-3xl border-b-3 ">
+                Production Procces
+              </h2>
+              <p className="z-50 text-center w-full pt-2 text-md">
+                Our company standardized wood charcoal production process as
+                following
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                {proces.map((pros) => (
+                  <div key={pros.id} className="bg-white p-4 rounded sha000ow">
+                    <h1 className="mt-2 text-lg md:text-2xl font-semibold">
+                      {pros.desc}
+                    </h1>
+                    <img
+                      src={pros.gambar}
+                      alt="product-image"
+                      className="w-full h-[300px] object-cover rounded"
+                    />
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="hidden md:block pt-24">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3  h-48 bg-stone-700">
-          <div className="flex grid-cols-2 gap-5 pt-18 mx-16">
-            <i className="ri-phone-line text-white text-7xl font-bold  pt-1 "></i>
-            <div className="col-span-4 text-left ml-2 ">
-              <p className="text-white text-xl font-semibold pb-3 pl-1">
-                Contact Us
-              </p>
-              <p className="text-white text-lg md:text-xl font-bold">
-                +62 823-2606-5654
-              </p>
-            </div>
-          </div>
-
-          <div className="my-5 pt-2">
-            <img
-              src={Bara}
-              className="w-[250px] h-[150px] rounded-sm  mx-auto"
-            />
-          </div>
-          <div className="flex grid-cols-2  pt-18 gap-5">
-            <div className="col-span-4 text-right ">
-              <p className="text-white text-lg md:text-xl font-semibold pb-3 ">
-                Mail Us
-              </p>
-              <p className="text-white text-lg md:text-xl font-bold">
-                charcoalpremium@gmail.com
-              </p>
-            </div>
-            <i className="ri-mail-ai-line text-white text-6xl font-bold   "></i>
-          </div>
-        </div>
-      </div>
+      /
       <Footer />
     </>
   );

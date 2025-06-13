@@ -36,18 +36,13 @@ const AboutPages = () => {
                 // data-aos="fade-up"
                 className="text-sm md:text-lg text-justify pt-5 leading-7 space-y-2"
               >
-                Factory wood charcoal is a high-quality type of charcoal made
-                from natural hardwood and coconut shells without any chemicals
-                or added binders. This type of charcoal is designed to provide
-                maximum performance in grilling and smoking food. We prioritize
-                the highest quality standards in all aspects of our business.
-                Our charcoal products are sourced from sustainable forests and
-                are carefully crafted, ensuring consistent quality, optimal
-                burning properties, and enhanced flavor for your grilling and
-                cooking needs. The success of our company is driven by our
-                dedication to uncompromising quality, excellent customer
-                service, timely delivery, professionalism, and strong business
-                ethics.
+                Our factory produces the highest quality wood charcoal, made
+                exclusively from superior raw materials for exeptional results.
+                <br />
+                Expanding our global reach, we proudly export around 150 tons of
+                our high-quality products primaly to China and the Middle Eastto
+                become a leading charcoal business by strategically prioritize
+                earning buyer trust and delivering superior service
               </p>
             </div>
           </div>

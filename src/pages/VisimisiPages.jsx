@@ -14,13 +14,7 @@ function VisimisiPages() {
                 OUR VISION{" "}
               </h1>
               <p className="pt-5 text-sm md:text-lg text-justify mt-4 ">
-                Our factory produces the highest quality wood charcoal, made
-                exclusively from superior raw materials for exeptional results.
-                <br />
-                Expanding our global reach, we proudly export around 150 tons of
-                our high-quality products primaly to China and the Middle East.
-                <br />
-                to become a leading charcoal business by strategically
+                To become a leading wood charcoal business by strategically
                 prioritize earning buyer trust and delivering superior service
               </p>
             </div>
